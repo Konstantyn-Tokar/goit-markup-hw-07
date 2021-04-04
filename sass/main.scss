@@ -2,9 +2,9 @@
 @import "./utils/visually-hidden";
 @import "./base/common";
 
-
 @import "./base/container";
 @import "./base/section";
+@import "./components/button" ;
 
 @import "./components/logo";
 @import "./components/backdrop" ;
@@ -13,7 +13,7 @@
 @import "./components/hidden";
 @import "./components/section-title";
 @import "./components/text-action";
-@import "./components/modal-button" ;
+// @import "./components/modal-button" ;
 @import "./components/social" ;
 
 @import "./themes/dark-theme";
