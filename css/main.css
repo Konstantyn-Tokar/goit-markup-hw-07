@@ -93,8 +93,8 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: opacity 250ms var(--timing), visibility 250ms var(--timing), pointer-events 250ms var(--timing);
 }
@@ -170,7 +170,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  margin: 0 avto;
+  margin: 0 auto;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -318,22 +318,6 @@ img {
   color: var(--color-text-light-fon);
 }
 
-.chosen {
-  position: relative;
-  color: var(--accent-color);
-}
-
-.chosen::after {
-  position: absolute;
-  display: block;
-  margin-top: 29px;
-  content: '';
-  width: 100%;
-  background: var(--accent-color);
-  border-radius: 2px;
-  height: 4px;
-}
-
 .modal-button {
   border: none;
   min-width: 200px;
@@ -464,6 +448,22 @@ img {
   fill: currentColor;
 }
 
+.chosen {
+  position: relative;
+  color: var(--accent-color);
+}
+
+.chosen::after {
+  position: absolute;
+  display: block;
+  margin-top: 29px;
+  content: '';
+  width: 100%;
+  background: var(--accent-color);
+  border-radius: 2px;
+  height: 4px;
+}
+
 .hero {
   margin: 0 auto;
   max-width: 1600px;
@@ -476,7 +476,7 @@ img {
   background-size: cover;
 }
 
-.hero__titel {
+.hero__title {
   width: 700px;
   margin: 0 auto;
   margin-bottom: 30px;
