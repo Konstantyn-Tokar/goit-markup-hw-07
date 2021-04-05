@@ -389,6 +389,7 @@ img {
 .contacts {
   margin-left: auto;
   display: flex;
+  align-items: center;
 }
 
 .contacts__item {
