@@ -498,6 +498,7 @@ img {
 }
 
 .features__subtitle {
+  font-size: 14px;
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1.14;
@@ -536,6 +537,7 @@ img {
 }
 
 .description-fon__subtitle {
+  font-size: 14px;
   font-family: var(--main-font);
   font-weight: 700;
   line-height: 1.14;
